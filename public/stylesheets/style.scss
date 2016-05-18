@@ -1,0 +1,82 @@
+$backgroundColorOne: black;
+$backgroundColorTwo: grey;
+$titleColor: red;
+$titleFont: 48px "Lucida Grande", Helvetica;
+$h2Font: 36px "Lucida Grande", Helvetica;
+$generalFont: 14px "Lucida Grande", Helvetica;
+$instructionsFont: 16px "Lucida Grande", Helvetica;
+$colorFont: white;
+$backgroundColorExit: #d9d9d9;
+$h2BackgroundColor: #ff3333;
+
+body {
+  padding: 50px;
+  font: $generalFont;
+  background: linear-gradient($backgroundColorOne, $backgroundColorTwo);
+  color: $colorFont;
+}
+
+h1 {
+  color: $titleColor;
+  font: $titleFont;
+  text-shadow: 2px 2px #ff4d4d;
+}
+
+h2 {
+  color: $h2BackgroundColor;
+  font: $h2Font;
+  text-shadow: 2px 2px #FF0000;
+  padding-left: 10%;
+}
+
+.cube {
+  background: linear-gradient(to right, $backgroundColorTwo , $backgroundColorOne);
+  border: 2px solid grey;
+  box-shadow: 10px 10px 50px  11px #000;
+  padding: 2%;
+  margin: 2%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#exit {
+  background-color: $backgroundColorExit;
+}
+
+#menuCab {
+  margin: 0;
+  width: 100%;
+  height: 10%;
+
+  ul {
+    margin: 0;
+    display: block;
+  }
+
+  li {
+    display: inline-block;
+    margin-top: 1%;
+    margin-right: 5%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: grey;
+    text-shadow: 2px 5px 5px;
+  }
+}
+
+#instruc {
+  background-color: white;
+  color: black;
+  border: 2px solid grey;
+  box-shadow: 10px 10px 50px  11px #000;
+  padding: 2%;
+  margin: 2%;
+}

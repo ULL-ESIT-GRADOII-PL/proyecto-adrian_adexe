@@ -49,6 +49,12 @@ if (app.get('env') === 'development') {
   });
 }
 
+// instructions page
+app.get('/instructions', function(req, res) {
+    console.log("Por lo menos entro aquí");
+    res.render('instructions');
+});
+
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {

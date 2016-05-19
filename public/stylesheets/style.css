@@ -38,6 +38,10 @@ a {
   box-shadow: 10px 10px 50px  3px #000;
 }
 
+.butEx:hover {
+  box-shadow: 1px 1px 50px  12px #000;
+}
+
 #calc {
   margin-left: 10%;
   padding: 1%;

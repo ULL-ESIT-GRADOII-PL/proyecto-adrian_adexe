@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-// about page
+// instructions page
 router.get('/instructions', function(req, res, next) {
     res.render('instructions', { title: 'Express' });
 });

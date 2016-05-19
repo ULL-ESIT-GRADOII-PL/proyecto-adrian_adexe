@@ -10,13 +10,14 @@ h1 {
   color: red;
   font: 48px "Lucida Grande", Helvetica;
   text-shadow: 2px 2px #ff4d4d;
+  text-align: center;
 }
 
 h2 {
   color: #ff3333;
   font: 36px "Lucida Grande", Helvetica;
   text-shadow: 2px 2px #FF0000;
-  padding-left: 10%;
+  text-align: center;
 }
 
 .cube {

@@ -7,6 +7,9 @@ fun  bu ( int a, double ce, string develop) dev int
  si a == 4 hacer b = 3
   si_no si a == 2 hacer b = 8
   fsi
- fsi
+ fsi;
+ c = 0
 }
 ffun
+
+# Ejemplo 4

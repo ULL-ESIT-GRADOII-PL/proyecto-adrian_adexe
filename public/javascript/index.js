@@ -9,13 +9,21 @@ function loadFile(fileName) {
     success : function (data) {
       editor.session.setValue(data);
 
-      if (window.localStorage) {localStorage.original = data;}
+      if (window.localStorage) {
+        localStorage.original = data;
       }
+    }
   });
 };
 
 $(document).ready(function() {
+  editor.session.setValue(localStorage.original);
   $('#calc').click(function() {
+
+    if (window.localStorage) {
+      localStorage.original = editor.getValue();
+    }
+
     try {
       let myVar = editor.getValue();
       let result = pl0.parse(myVar);

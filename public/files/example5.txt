@@ -6,8 +6,7 @@ fun  car ( int a, double dn, string palabra) dev int
  b = palabra;
  c = dn;
  si a == 4 hacer b = c
-  si_no si a == 2 hacer b = 8
-  fsi
- fsi
+ fsi;
+ dev c;
 }
 ffun

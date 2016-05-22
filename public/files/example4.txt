@@ -1,6 +1,6 @@
 # Ejemplo 4
 
-fun  bu ( int a, double ce, string develop) dev int
+fun  ejemplo4 ( int a, double ce, string develop) dev int
 {
  a = 4;
  b = i;
@@ -14,5 +14,3 @@ fun  bu ( int a, double ce, string develop) dev int
  c = 0
 }
 ffun
-
-# Ejemplo 4

@@ -1,6 +1,6 @@
 # Ejemplo 2
 
-fun suma(x, y) dev z
+fun suma(int x,int y) dev int
 {
   z = x + y;
 }

@@ -1,7 +1,8 @@
 # Ejemplo 3
 
-fun saluda dev x
+fun saluda() dev int
 {
-  x = "Hola Mundo!";
+  aux = 8*8;
+  x = aux;
 }
 ffun

@@ -12,6 +12,36 @@ Escribir un analizador del lenguaje PL0 usando PEGjs así como las tecnologías 
 
 * NO DISPONIBLE
 
+## Forma de uso
+
+Para poder utilizar el proyecto primero se deben instalar las dependencias:
+
+```bash
+$ npm install
+```
+
+Para compilar la gramática pegjs nos situaremos en la raíz del proyecto y ejecutaremos:
+
+```bash
+$ pegjs lib/pl0.pegjs public/javascript/parser.js
+```
+
+Cambiaremos la primera línea del fichero parser.js:
+```js
+module.exports = (function() {
+```
+ahora será:
+```js
+pl0 = (function() {
+```
+
+Para correr la aplicación en local:
+
+```bash
+$ npm start
+```
+
+La aplicación estará disponible a través de `http://localhost:3000/`
 ## Página de los autores
 
 * [Adexe Sabina](http://alu0100769609.github.io/)

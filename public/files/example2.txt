@@ -1,0 +1,7 @@
+# Ejemplo 2
+
+fun suma(x, y) dev z
+{
+  z = x + y;
+}
+ffun

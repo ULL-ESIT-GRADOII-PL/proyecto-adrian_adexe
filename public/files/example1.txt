@@ -1,0 +1,15 @@
+# Ejemplo divide y venceras
+
+fun divide-y-venceras(x, y) dev y
+{
+  si pequeño(x) entonces
+    y = metodo-directo(x)
+  si_no
+    descomponer( x )
+    para j = 1 hasta k hacer
+      y = divide-y-venceras(x)
+    fpara
+    y = combinar(y)
+  fsi
+}
+ffun

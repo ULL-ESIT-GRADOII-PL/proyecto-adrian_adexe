@@ -1,0 +1,7 @@
+# Ejemplo 3
+
+fun saluda dev x
+{
+  x = "Hola Mundo!";
+}
+ffun

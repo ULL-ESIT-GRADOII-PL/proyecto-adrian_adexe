@@ -1,0 +1,12 @@
+# Ejemplo 4
+
+fun  bu ( int a, double ce, string develop) dev int
+{
+ a = 4;
+ b = i;
+ si a == 4 hacer b = 3
+  si_no si a == 2 hacer b = 8
+  fsi
+ fsi
+}
+ffun

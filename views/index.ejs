@@ -2,12 +2,14 @@
  <div class="cube">
    <h3>Entrada texto</h3>
    <div id="myEditor"></div>
+   <script src="src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+   <script src="javascript/index.js"></script>
    <div id="bottons">
-     <button class="butEx" id="b1" type="button">Ejemplo 1</button>
-     <button class="butEx" id="b2" type="button">Ejemplo 2</button>
-     <button class="butEx" id="b3" type="button">Ejemplo 3</button>
-     <button class="butEx" id="b4" type="button">Ejemplo 4</button>
-     <button class="butEx" id="b5" type="button">Ejemplo 5</button>
+     <button class="butEx" id="b1" type="button" onclick="loadFile('files/example1.txt');">Ejemplo 1</button>
+     <button class="butEx" id="b2" type="button" onclick="loadFile('files/example2.txt');">Ejemplo 2</button>
+     <button class="butEx" id="b3" type="button" onclick="loadFile('files/example3.txt');">Ejemplo 3</button>
+     <button class="butEx" id="b4" type="button" onclick="loadFile('files/example4.txt');">Ejemplo 4</button>
+     <button class="butEx" id="b5" type="button" onclick="loadFile('files/example5.txt');">Ejemplo 5</button>
      <button class="butEx" id="calc" type="button" onclick="">Calcular</button>
    </div>
  </div>

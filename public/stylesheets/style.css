@@ -43,6 +43,7 @@ a {
 }
 
 #calc {
+  margin-top: 1%;
   margin-left: 10%;
   padding: 1%;
   background-color: #66ffff;
@@ -97,5 +98,8 @@ a {
 }
 
 #myEditor {
-  margin: 1%;
+  display: inline-block;
+  margin: auto;
+  height: 300px;
+  width: 100%;
 }

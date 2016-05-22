@@ -1,7 +1,6 @@
-var editor = ace.edit("myEditor");
-//editor.setTheme("src-min/theme-github.js");
+let editor = ace.edit("myEditor");
 editor.setTheme("ace/theme/monokai");
-//editor.session.setValue($("#my_html_hidden").text());
+document.getElementById('myEditor').style.fontSize='16px';
 
 function loadFile(fileName) {
   $.ajax({
@@ -14,3 +13,15 @@ function loadFile(fileName) {
       }
   });
 };
+
+$(document).ready(function() {
+  $('#calc').click(function() {
+    try {
+      let myVar = editor.getValue();
+      let result = pl0.parse(myVar);
+      $('#exit').html(JSON.stringify(result,undefined,2));
+    } catch (e) {
+      $('#exit').html('<div class="error"><pre>\n' + JSON.stringify(e, null,4) + '\n</pre></div>');
+    }
+  });
+});

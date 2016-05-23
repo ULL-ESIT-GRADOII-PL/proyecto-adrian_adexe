@@ -38,7 +38,7 @@ app.use(function(req, res, next) {
 //////////////////////////////////////////////////////////////////////////////////////7
 const calculate = require('./javascript/parser.js');
 
-app.get('/javascript/index', (request, response) => {
+app.get('/javascript', (request, response) => {
   response.send({ "rows": calculate(request.query.input) });
 });
 //////////////////////////////////////////////////////////////////////////////////////7

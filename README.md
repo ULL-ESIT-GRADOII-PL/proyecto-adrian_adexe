@@ -6,11 +6,11 @@ Escribir un analizador del lenguaje PL0 usando PEGjs así como las tecnologías 
 
 ## Repositorio GitHuB
 
-* NO DISPONIBLE
+* [Repositorio de trabajo y organización](https://github.com/ULL-ESIT-GRADOII-PL/proyecto-adrian_adexe)
 
 ## Página de la práctica
 
-* NO DISPONIBLE
+* [Aplicación en heroku](https://analizador-pl0-adrian-adexe.herokuapp.com/)
 
 ## Forma de uso
 

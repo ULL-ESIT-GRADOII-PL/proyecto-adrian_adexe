@@ -35,6 +35,13 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
+//////////////////////////////////////////////////////////////////////////////////////7
+const calculate = require('./javascript/parser.js');
+
+app.get('/javascript/index', (request, response) => {
+  response.send({ "rows": calculate(request.query.input) });
+});
+//////////////////////////////////////////////////////////////////////////////////////7
 
 // error handlers
 

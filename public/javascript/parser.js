@@ -43,8 +43,10 @@ pl0 = (function() {
                             fReturns: returns
                          }; },
         peg$c1 = function(p1, r) {
-            	let rest = r.map( ([_, param])=> param)
-                return {p1, rest};},
+           		let rest = p1? [p1] : [];
+                  rest = rest.concat(r.map(([_, param]) => param));
+           		return rest;
+              },
         peg$c2 = function(type, id) { return { type: type, value: id};},
         peg$c3 = function(s1, r) {
                     let t = [];

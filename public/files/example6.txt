@@ -1,0 +1,21 @@
+#Ejemplo 6
+
+const fija = 1999, otraFija = 33;
+var a, pepa;
+
+fun ejemplo1 (int j);
+
+fun  ejemplo4 ( int a, double ce, string develop) dev int
+{
+ a = 4;
+ b = i;
+ mientras a != 3 hacer
+  a + 1
+ fmientras;
+ si a == 4 hacer b = 3
+  si_no si a == 2 hacer b = 8
+  fsi
+ fsi;
+ c = 0
+}
+ffun

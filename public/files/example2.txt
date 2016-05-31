@@ -1,7 +1,8 @@
-# Ejemplo 2
+# Ejemplo Suma
 
 fun suma(int x,int y) dev int
 {
   z = x + y;
+  dev z;
 }
 ffun

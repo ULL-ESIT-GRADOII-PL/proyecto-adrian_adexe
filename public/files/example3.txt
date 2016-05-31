@@ -1,8 +1,8 @@
-# Ejemplo 3
+# Ejemplo Cadena
 
-fun saluda() dev int
+fun saluda() dev string
 {
-  aux = 8*8;
-  x = aux;
+   cadena = "Hola Mundo";
+   dev cadena;
 }
 ffun

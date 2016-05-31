@@ -1,16 +1,14 @@
-# Ejemplo 4
+# Ejemplo Bucle Mientras
 
-fun  ejemplo4 ( int a, double ce, string develop) dev int
+fun  contador () dev string
 {
- a = 4;
- b = i;
+ a = 0;
+ b = 1;
  mientras a != 3 hacer
-  a + 1
+  a = a + 1;
+  b = a + b;
  fmientras;
- si a == 4 hacer b = 3
-  si_no si a == 2 hacer b = 8
-  fsi
- fsi;
- c = 0
+
+ dev "Ha llegado al final";
 }
 ffun

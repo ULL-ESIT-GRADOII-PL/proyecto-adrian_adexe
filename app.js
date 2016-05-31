@@ -52,7 +52,6 @@ if (app.get('env') === 'development') {
 
 // instructions page
 app.get('/instructions', function(req, res) {
-    console.log("Por lo menos entro aquí");
     res.render('instructions');
 });
 

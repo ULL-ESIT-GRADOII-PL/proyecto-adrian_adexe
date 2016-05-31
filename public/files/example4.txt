@@ -6,7 +6,7 @@ fun  contador () dev string
  b = 1;
  mientras a != 3 hacer
   a = a + 1;
-  b = a + b;
+  b = a + b
  fmientras;
 
  dev "Ha llegado al final";

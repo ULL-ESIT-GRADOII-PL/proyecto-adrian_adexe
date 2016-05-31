@@ -28,11 +28,11 @@ $ pegjs lib/pl0.pegjs public/javascript/parser.js
 
 Cambiaremos la primera línea del fichero parser.js:
 ```js
-module.exports = (function() {
+module.exports = (function() { ... })
 ```
 ahora será:
 ```js
-pl0 = (function() {
+pl0 = (function() { ... })
 ```
 
 Para correr la aplicación en local:

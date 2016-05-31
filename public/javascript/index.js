@@ -17,7 +17,9 @@ function loadFile(fileName) {
 };
 
 $(document).ready(function() {
-  editor.session.setValue(localStorage.original);
+  if (window.localStorage.original) {
+    editor.session.setValue(localStorage.original);
+  }
   $('#calc').click(function() {
 
     if (window.localStorage) {

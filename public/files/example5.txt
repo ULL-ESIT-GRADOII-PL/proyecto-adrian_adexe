@@ -1,12 +1,14 @@
-# Ejemplo 5
+# Ejemplo Condiciones
 
-fun  car ( int a, double dn, string palabra) dev int
+fun  condicion ( double dob, string palabra) dev nada
 {
- a = a;
- b = palabra;
- c = dn;
- si a == 4 hacer b = c
+ si dob == 4 hacer
+   dob = dob * 4.2;
+   si palabra == "termina" hacer
+     palabra = "finalizado"
+   si_no
+     palabra = "continuar"
+   fsi
  fsi;
- dev c;
 }
 ffun

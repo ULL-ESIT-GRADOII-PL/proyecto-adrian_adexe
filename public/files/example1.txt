@@ -1,15 +1,16 @@
 #Ejemplo Completo
 
 const fija = 1999, otraFija = 33;
+# Ahora declaramos variables
 var a, pepa;
 
 fun ejemplo1 (int j);
-
+# Funcion principal
 fun  ejemplo2 ( int a, double ce, string develop) dev nada
 {
  a = 45;
  b = otraVariable;
- c = "esto es una string"
+ c = "esto es una string";
 
  mientras a != 3 hacer
   a + 1
